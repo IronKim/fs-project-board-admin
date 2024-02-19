@@ -1,7 +1,6 @@
 package com.fs.projectboardadmin.controller;
 
-import com.fs.projectboardadmin.config.SecurityConfig;
-import com.fs.projectboardadmin.domain.constant.RoleType;
+import com.fs.projectboardadmin.config.TestSecurityConfig;
 import com.fs.projectboardadmin.dto.ArticleCommentDto;
 import com.fs.projectboardadmin.dto.UserAccountDto;
 import com.fs.projectboardadmin.service.ArticleCommentManagementService;
@@ -25,7 +24,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @DisplayName("컨트롤러 - 댓글 관리")
-@Import(SecurityConfig.class)
+@Import(TestSecurityConfig.class)
 @WebMvcTest(ArticleCommentManagementController.class)
 class ArticleCommentManagementControllerTest {
 
