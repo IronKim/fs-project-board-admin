@@ -6,6 +6,7 @@ logging:
     com.fs.projectboardadmin: DEBUG
     org.springframework.web.servlet: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.web.client.RestTemplate: debug
 
 server.port: 8081
 
