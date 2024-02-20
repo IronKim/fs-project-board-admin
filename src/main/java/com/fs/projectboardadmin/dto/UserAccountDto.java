@@ -1,9 +1,6 @@
 package com.fs.projectboardadmin.dto;
 
-import com.fs.projectboardadmin.domain.constant.RoleType;
-
 import java.time.LocalDateTime;
-import java.util.Set;
 
 public record UserAccountDto(
         String userId,
