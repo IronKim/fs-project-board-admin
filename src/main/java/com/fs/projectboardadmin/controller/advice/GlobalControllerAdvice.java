@@ -1,4 +1,4 @@
-package com.fs.projectboardadmin.controller;
+package com.fs.projectboardadmin.controller.advice;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
