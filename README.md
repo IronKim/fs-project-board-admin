@@ -13,6 +13,7 @@ Spring Boot
 * Spring Boot DevTools
 * H2 Database
 * MySQL Driver
+* postgresql driver
 * Spring Configuration Processor
 
 그 외
