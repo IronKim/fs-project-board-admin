@@ -48,6 +48,18 @@ project.board.url: http://localhost:8080
 ---
 
 spring:
+  config.activate.on-profile: production
+  datasource:
+    url: jdbc:${DATABASE_URL}
+    driver-class-name: org.postgresql.Driver
+  jpa.hibernate.ddl-auto: create
+  sql.init.mode: always
+
+project.board.url: ${PROJECT_BOARD_URL}
+
+---
+
+spring:
   config.activate.on-profile: test
   datasource.url: jdbc:h2:mem:testdb
 

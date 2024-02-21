@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.fs'
-version = 'v1.0'
+version = 'v1.1'
 
 java {
     sourceCompatibility = '17'
@@ -45,4 +45,8 @@ dependencies {
 
 tasks.named('test') {
     useJUnitPlatform()
+}
+
+jar {
+    enabled = false
 }
